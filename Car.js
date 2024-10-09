@@ -12,6 +12,9 @@ class Car {
         box(100)
         pop()
     }
+    getX(){
+        return this.x
+    }
     update(pos) {
         switch (pos) {
             case 'right':
